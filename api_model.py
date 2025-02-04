@@ -10,8 +10,8 @@ import uuid
 app = Flask(__name__)
 
 #Configuracion URL de Label Studio y token de autenticación
-label_studio_url = "http://192.168.0.15:8080"
-api_token = "3a86d046218d1e73c42a5f0f5e0424cbd03f9137"
+label_studio_url = "label_studio_url"
+api_token = "label_studio_token"
 model_path = "ppe_yolov8.pt"
 
 #Definir los encabezados con el token de autenticacion
